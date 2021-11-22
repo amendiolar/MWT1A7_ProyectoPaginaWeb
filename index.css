@@ -1,0 +1,28 @@
+
+nav{
+    background-color: cornflowerblue;
+    padding: 1px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+#product{
+    background-color: cyan;
+}
+
+#picture{
+    width: 100%;
+}
+
+#imgProduct{
+    width: 100%;
+}
+
+#process{
+    background-color: darkorange;
+}
+
