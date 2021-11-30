@@ -4,25 +4,108 @@ nav{
     padding: 1px;
 }
 
+nav > h1{
+    text-align: center;
+}
+
 main{
     display: grid;
-    grid-template-columns: 50% 50%;
     width: 100%;
 }
 
+
+
 #product{
-    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#product-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#productDescription{
+    width: 20%;
+    border: coral solid 3px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+#productHeader{
+    padding-left: 10%;
+    
 }
 
 #picture{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
 }
 
 #imgProduct{
-    width: 100%;
+    width: 75%;
+    border-radius: 5px;
 }
 
-#process{
-    background-color: darkorange;
+
+#menu{
+    width: 40%;
+    border:blue solid 3px;
+    border-radius: 5px;
+    margin: 3px;
 }
 
+
+#batch{
+    border-radius: 5px;
+    border:black solid 3px
+}
+caption{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.employeePhoto{
+    width: 10%;
+}
+.employeePhotoImg{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.employee{
+    width: 15%;
+    text-align: center;
+}
+.equipment{
+    width: 15%;
+    text-align: center;
+}
+.date{
+    width: 20%;
+    text-align: center;
+}
+.chart{
+    width: 20%;
+}
+
+.chartImg{
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+thead{
+    background-color: #D6EEEE;
+}
