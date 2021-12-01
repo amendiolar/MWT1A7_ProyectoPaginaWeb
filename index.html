@@ -10,13 +10,62 @@
 </head>
 <body>
     <nav>
-        <h1>Sistema de Calidad</h1>
+        <div id="Titulos">
+            <h1>Sistema de Calidad</h1>
+            <h3>Resultado busqueda por lote</h3>
+        </div>
+        <div id="Acciones">
+            <h4>Imprimir</h4>
+            <h4><a href="./inicio.html">Salir</a></h4>
+        </div>
     </nav>
 
     <main>
         <div id="product">
+
+            
             
             <div id="product-menu">
+
+                <div id="menu">
+                    <h3>Menu de Busqueda</h3>
+                    <form id="menuform">
+                        <select name="Producto" id="productDesc">
+                            <option value="">Producto</option>
+                            <option value="">Etiqueta TT 140 x 210 Azul</option>
+                            <option value="">Etiqueta TT 140 x 210 Verde</option>
+                        </select>
+                        <select name="Lote" id="numlote">
+                            <option value="">Lote</option>
+                            <option value="">20211126-TT140x210-B</option>
+                            <option value="">20210613-TT140x210-G</option>
+                        </select>
+                        <label >Desde : <input type="date" class="fecha"/></label>
+                        <label>Hasta : <input type="date" class="fecha"/></label>
+                        
+                        <select name="operario" id="operario">
+                            <option value="">Operario</option>
+                            <option value="">Juan Carlos Gonzalez</option>
+                            <option value="">Mirsha Gutierrez</option>
+                            <option value="">Benito Morales</option>
+                            <option value="">Eduardo Flores</option>
+                        </select>
+                        <select name="maquina" id="maquina">
+                            <option value="">Maquina</option>
+                            <option value="">Maldonado</option>
+                            <option value="">Embobinadora derecha</option>
+                            <option value="">Embobinadora izquierda</option>
+                            <option value="">Lazara</option>
+                            <option value="">Jamonera</option>
+                            <option value="">Cortadora China</option>
+                            <option value="">Vanderbergh</option>
+                            <option value="">Greenga</option>
+                        </select>
+
+                        <button type="submit">Enviar</button>
+                    </form>                  
+                </div>
+
 
                 <div id="productDescription">
                     <div id="productHeader">
@@ -28,40 +77,6 @@
                     </div>
                 </div>
 
-                <div id="menu">
-                    <form>
-                        <select name="Producto">
-                            <option value="">Producto</option>
-                            <option value="">Etiqueta TT 140 x 210 Azul</option>
-                            <option value="">Etiqueta TT 140 x 210 Verde</option>
-                        </select>
-                        <select name="Lote">
-                            <option value="">Lote</option>
-                            <option value="">20211126-TT140x210-B</option>
-                            <option value="">20210613-TT140x210-G</option>
-                        </select>
-                        <input type="date" />
-                        <input type="date" />
-                        <select name="operario">
-                            <option value="">Operario</option>
-                            <option value="">Juan Carlos Gonzalez</option>
-                            <option value="">Mirsha Gutierrez</option>
-                            <option value="">Benito Morales</option>
-                            <option value="">Eduardo Flores</option>
-                        </select>
-                        <select name="maquina">
-                            <option value="">Maquina</option>
-                            <option value="">Maldonado</option>
-                            <option value="">Embobinadora derecha</option>
-                            <option value="">Embobinadora izquierda</option>
-                            <option value="">Lazara</option>
-                            <option value="">Jamonera</option>
-                            <option value="">Cortadora China</option>
-                            <option value="">Vanderbergh</option>
-                            <option value="">Greenga</option>
-                        </select>
-                    </form>                  
-                </div>
 
             </div>
 

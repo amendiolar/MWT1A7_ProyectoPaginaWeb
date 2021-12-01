@@ -1,10 +1,25 @@
 
 nav{
-    background-color: cornflowerblue;
-    padding: 1px;
+    background-color:orange;
+    padding-left: 10px;
+    border-radius: 5px;
+    display: flex;
 }
 
-nav > h1{
+#Titulos{
+    width: 90%;
+}
+
+#Titulos > h1{
+    text-align: left;
+}
+
+#Titulos > h3{
+    text-align: center;
+}
+
+#Acciones{
+    width: 10%;
     text-align: center;
 }
 
@@ -13,7 +28,25 @@ main{
     width: 100%;
 }
 
+#business-menu{
+    display: flex;
+    justify-content: center;
+}
 
+#company{
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#company > img{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
 
 #product{
     display: flex;
@@ -57,8 +90,44 @@ main{
     border:blue solid 3px;
     border-radius: 5px;
     margin: 3px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
+#menu > h3{
+    text-align: center;
+}
+
+#menuform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productDesc{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#numlote{
+    margin-bottom: 5px;
+}
+
+.fecha{
+    margin-bottom: 5px;
+}
+
+#operario{
+    margin-bottom: 5px;
+}
+
+#maquina{
+    margin-bottom: 5px;
+}
+
+button{
+    margin-top: 0px;
+}
 
 #batch{
     border-radius: 5px;
@@ -104,8 +173,8 @@ caption{
 }
 
 tr:nth-child(even) {
-    background-color: #D6EEEE;
+    background-color: #FFA07A;
   }
 thead{
-    background-color: #D6EEEE;
+    background-color: #FFA07A;
 }
