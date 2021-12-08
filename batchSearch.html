@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" >
+</head>
+<body>
+    <nav>
+        <div id="Titulos">
+            <h1>Sistema de Calidad</h1>
+            <h3>Resultado busqueda por lote</h3>
+        </div>
+        <div id="Acciones">
+            <h4>Imprimir</h4>
+            <h4><a href="./inicio.html">Salir</a></h4>
+        </div>
+    </nav>
+
+    <main>
+        <div id="product">
+
+            
+            
+            <div id="product-menu">
+
+                <div id="menu">
+                    <h3>Menu de Busqueda</h3>
+                    <form id="menuform">
+                        <select name="Producto" id="productDesc">
+                            <option value="">Producto</option>
+                            <option value="">Etiqueta TT 140 x 210 Azul</option>
+                            <option value="">Etiqueta TT 140 x 210 Verde</option>
+                        </select>
+                        <select name="Lote" id="numlote">
+                            <option value="">Lote</option>
+                            <option value="">20211126-TT140x210-B</option>
+                            <option value="">20210613-TT140x210-G</option>
+                        </select>
+                        <label >Desde : <input type="date" class="fecha"/></label>
+                        <label>Hasta : <input type="date" class="fecha"/></label>
+                        
+                        <select name="operario" id="operario">
+                            <option value="">Operario</option>
+                            <option value="">Juan Carlos Gonzalez</option>
+                            <option value="">Mirsha Gutierrez</option>
+                            <option value="">Benito Morales</option>
+                            <option value="">Eduardo Flores</option>
+                        </select>
+                        <select name="maquina" id="maquina">
+                            <option value="">Maquina</option>
+                            <option value="">Maldonado</option>
+                            <option value="">Embobinadora derecha</option>
+                            <option value="">Embobinadora izquierda</option>
+                            <option value="">Lazara</option>
+                            <option value="">Jamonera</option>
+                            <option value="">Cortadora China</option>
+                            <option value="">Vanderbergh</option>
+                            <option value="">Greenga</option>
+                        </select>
+
+                        <button type="submit">Enviar</button>
+                    </form>                  
+                </div>
+
+
+                <div id="productDescription">
+                    <div id="productHeader">
+                        <h4>Producto:</h4>
+                        <p>Etiqueta TT 140 x 210 Azul</p>
+                    </div>
+                    <div id="picture">
+                        <img src="./images/IMG-20200115-WA0009.jpeg" id="imgProduct">
+                    </div>
+                </div>
+
+
+            </div>
+
+                       
+            <div id="batch">
+                <table>
+                    <caption>Numero de Lote: 20211126-TT140x210-B</caption>
+                    <thead>
+                        <tr>
+                            <th class="employeePhoto">Operario</th>
+                            <th class="employee">Nombre</th>
+                            <th class="equipment">Maquina</th>
+                            <th class="date">Inicio</th>
+                            <th class="date">Fin</th>
+                            <th class="chart">Grafico de Control</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="employeePhoto">
+                                <img src="./images/M.jpg" class="employeePhotoImg">
+                            </td>
+                            <td class="employee">Mirsha Rodriguez Gomez</td>
+                            <td class="equipment">Maldonado</td>
+                            <td class="date">Martes 16-nov-2021 9:00 </td>
+                            <td class="date">Miercoles 17-nov-2021 11:45 </td>
+                            <td class="chart">
+                                <img src="./images/Grafico de Control Atributos.png" class="chartImg">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="employeePhoto">
+                                <img src="./images/J.jpg" class="employeePhotoImg">
+                            </td>
+                            <td class="employee">Juan Gonzalez Romero</td>
+                            <td class="equipment">Embobinadora derecha</td>
+                            <td class="date">Miercoles 17-nov-2021 11:30 </td>
+                            <td class="date">Miercoles 17-nov-2021 17:45 </td>
+                            <td class="chart">
+                                <img src="./images/Grafico de Control Atributos.png" class="chartImg">
+                            </td>
+                        </tr>
+                    </tbody>
+            </div>
+
+        </div>
+
+
+    </main>
+</body>
+</html>
